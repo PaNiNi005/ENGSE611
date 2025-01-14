@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(37, 14, 241);
+    font-size: 55px;
+  }
+  h2 {
+    color: blue;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  b {
+    color: rgb(149, 90, 217);
+  }
+  i {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  a {
+    color: brown;
+  }

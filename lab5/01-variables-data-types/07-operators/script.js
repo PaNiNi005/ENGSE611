@@ -1,21 +1,57 @@
+// 1. Arithmetic Operators
 
-// + - * /
-// ()
-// + -
-// * /
-//div 
+let x;
 
-console.log(1+(2*2)-3);
-console.log(6-3);
-console.log(6%3);
+x = 5 + 5;
+x = 5 - 5;
+x = 5 * 5;
+x = 5 / 5;
+x = 7 % 5;
 
-console.log (6 == 0);
+// Concatenation
+x = 'Hello' + ' ' + 'World';
 
-console.log (2 == '2'); //Convert to same type
-console.log (2 === '2');//Not convert to same type
+// Exponent
+x = 2 ** 3;
 
-if (2 == '2') console.log("OK");
+// Increment
+x = 1;
+// x = x + 1;
+x++;
 
-if ( !(2 === '2')) console.log("Not tobe OK");
+// Decrement
+// x = x - 1;
+x--;
 
-if (false && false ) console.log("OK");
+// 2. Assignment Operators
+
+x = 10;
+
+x += 5;
+x -= 5;
+x *= 5;
+x /= 5;
+x %= 5;
+x **= 5;
+
+// 3. Comparison Operators
+
+// Equal to (Just the value, not the type)
+x = 2 == '2';
+
+// Equal to (Type and value)
+x = 2 === '2';
+
+// Not equal to (Just the value, not the type)
+x = 2 != '2';
+
+// Not equal to (Type and value)
+x = 2 !== 2;
+
+// Greater than and less than
+x = 10 > 5;
+x = 10 < 5;
+x = 10 <= 5;
+x = 10 >= 5;
+
+console.log(x);
